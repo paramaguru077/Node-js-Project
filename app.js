@@ -8,7 +8,7 @@ app.use(express.json());
 app.use('/',router);
 
 
-const PORT = 3000;
+const PORT = 8001;
 
 app.listen(PORT,()=> {
     console.log(`Server running on port ${PORT}`)
